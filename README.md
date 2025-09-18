@@ -15,7 +15,7 @@ A modern, responsive React application that displays user profiles fetched from 
 
 ## 🚀 Live Demo
 
-**Live Application**: [https://user-profiles-react-jrev.bolt.host](https://user-profiles-react-jrev.bolt.host)
+**Live Application**: (https://10-member-profiles-i5hbwrzup-om-prakashs-projects-0ad3ab9d.vercel.app)
 
 ## 📸 Screenshots
 
@@ -55,10 +55,6 @@ User-friendly error message with retry functionality when API calls fail.
 - **Method**: GET
 - **Response**: Array of 10 user objects
 
-### Avatar Images
-- **URL**: `https://avatars.dicebear.com/v2/avataaars/{username}.svg?options[mood][]=happy`
-- **Method**: GET
-- **Fallback**: UI Avatars API for error cases
 
 ## 🏗️ Project Structure
 
@@ -187,39 +183,12 @@ interface User {
 
 ## 🚀 Deployment
 
-The application is deployed on Bolt Hosting and can be accessed at:
-[https://user-profiles-react-jrev.bolt.host](https://user-profiles-react-jrev.bolt.host)
+The application is deployed on Vercel app and can be accessed at:
+(https://10-member-profiles-i5hbwrzup-om-prakashs-projects-0ad3ab9d.vercel.app)
 
 ### Build for Production
 ```bash
 npm run build
 ```
 
-The build artifacts will be stored in the `dist/` directory.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for providing the user data API
-- [DiceBear](https://avatars.dicebear.com/) for the avatar generation service
-- [Lucide](https://lucide.dev/) for the beautiful icons
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-
-## 📞 Support
-
-If you have any questions or need help with the application, please feel free to open an issue in the repository.
-
----
-
-**Built with ❤️ using React, TypeScript, and Tailwind CSS**
